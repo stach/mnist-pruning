@@ -3,6 +3,10 @@
 ## **Configuration:**
     - K := 10 Epochs
     - J := 5 Epochs
+    - Train Epochs: 
+        - 10 with lr 0.001 and AdamW
+        - 10 with lr 0.0001 and AdamW
+        => Training epochs
 
 ## **Datasets:**
     Trainset size: 48000
@@ -15,45 +19,53 @@
 ## **Results:**
 
 ### Baseline (100% data):
-    (Train Accuracy: 99.39%)
-    Validation Accuracy: 98.15%
-    Test Accuracy: 98.30%
+    (Train Accuracy: 99.52%)
+    Validation Accuracy: 98.48%
+    Test Accuracy: 98.70%
 
 ---
 
 ### Random Subsampling (75% data):
-    (Train Accuracy: 99.78%)
-    Validation Accuracy: 98.38%
-    Test Accuracy: 98.36%
+    (Train Accuracy: 99.59%)
+    Validation Accuracy: 98.49%
+    Test Accuracy: 98.61%
+
 
 ### Pruning (75% data):
-    (Train Accuracy: 99.85%)
-    Validation Accuracy: 98.05%
-    Test Accuracy: 97.80%
+    (Train Accuracy: 99.41%)
+    Validation Accuracy: *98.60%
+    Test Accuracy: *98.63%
 
 ---
 
 ### Random Subsampling (50% data):
-    (Train Accuracy: 99.60%)
-    Validation Accuracy: 97.82%
-    Test Accuracy: 97.79%
+    (Train Accuracy: 99.45%)
+    Validation Accuracy: 97.97%
+    Test Accuracy: 98.33%
+
 
 ### Pruning (50% data):
-    (Train Accuracy: 99.19%)
-    Validation Accuracy: 98.54%
-    Test Accuracy: 98.66%
+    Train Accuracy: 99.05%
+    Validation Accuracy: *98.25%
+    Test Accuracy: *98.44%
+
 
 ---
 
-### Random Subsampling (10% data):
-    (Train Accuracy: 99.48%)
-    Validation Accuracy: 95.64%
-    Test Accuracy: 96.09%
+### Random Subsampling (5% data):
+    (Train Accuracy: 96.88%)
+    Validation Accuracy: *92.66%
+    Test Accuracy: *93.26%
 
-### Pruning (10% data):
-    (Train Accuracy: 100.00%)
-    Validation Accuracy: 77.82%
-    Test Accuracy: 78.48%
+### Pruning (5% data - 10x the number of epochs):
+    (Train Accuracy: 93.42%)
+    Validation Accuracy: 91.10%
+    Test Accuracy: 92.23%
+
+
+# **Observation:**
+
+Convergence behavior seems more complex for Pruning Approach
 
 
 ## **Analysis:**
