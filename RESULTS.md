@@ -31,9 +31,6 @@
     Validation Accuracy: 98.05%
     Test Accuracy: 97.80%
 
-### FT Uncertainty (75% data):
-    TODO
-
 ---
 
 ### Random Subsampling (50% data):
@@ -42,12 +39,9 @@
     Test Accuracy: 97.79%
 
 ### Pruning (50% data):
-    (Train Accuracy: 99.95%)
-    Validation Accuracy: 97.51%
-    Test Accuracy: 97.30%
-
-### FT Uncertainty (50% data):
-    TODO
+    (Train Accuracy: 99.19%)
+    Validation Accuracy: 98.54%
+    Test Accuracy: 98.66%
 
 ---
 
@@ -61,8 +55,6 @@
     Validation Accuracy: 77.82%
     Test Accuracy: 78.48%
 
-### FT Uncertainty (10% data):
-    TODO
 
 ## **Analysis:**
 
