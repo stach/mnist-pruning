@@ -65,11 +65,7 @@
 
 # **Observation:**
 
-Convergence behavior seems more complex for Pruning Approach
-
-
-## **Analysis:**
-
+Convergence behavior seems more complex for the pruning Approach
 
 MNIST might not be the right dataset for this:
     => Small and very easy to reach high accuracy
