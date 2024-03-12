@@ -6,13 +6,13 @@
     - Train Epochs: 
         - 10 with lr 0.001 and AdamW
         - 10 with lr 0.0001 and AdamW
-        => Training epochs
+        => 20 Training epochs
 
 ## **Datasets:**
     Trainset size: 48000
      - Subset size(75%): 36000
      - Subset size(50%): 24000
-     - Subset size(10%): 4799
+     - Subset size(5%): 2400
     Validationset size: 12000
     Teset size: 10000
 
